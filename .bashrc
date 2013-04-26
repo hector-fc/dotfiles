@@ -171,8 +171,3 @@ else
   #PS1='$(for i in $(seq $COLUMNS); do echo -n "."; done)\n[\t] $(pwd)\n\$ '
 #PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"'
 fi
-
-export PATH="$PATH:$HOME/Packages/git"
-export PATH="$PATH:$HOME/Packages/abel-git-achievements/git-achievements"
-source /home/abel/perl5/perlbrew/etc/bashrc
-
