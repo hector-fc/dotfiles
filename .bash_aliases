@@ -43,7 +43,6 @@ alias uploadfile='wgetpaste -s codepad -C'
 
 alias crawlssh='echo "Your pass is mypassAbel"; ssh -C -i /home/abel/Documentos/cszo_key -l crawl crawl.s-z.org'
 alias skype='xhost +local: && sudo -u skype /usr/bin/skype'
-alias git="git-achievements"
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
