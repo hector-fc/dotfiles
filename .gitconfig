@@ -1,0 +1,35 @@
+[user]
+	name = Abel Soares Siqueira
+	email = abel.s.siqueira@gmail.com
+[github]
+	user = abelsiqueira
+	token = 5fe325c1b50a387e66f6ef4ceb7a3207
+[color]
+	status = auto
+	branch = auto
+	diff = auto
+	grep = auto
+	ui = true
+[alias]
+  gethash = log -1 --pretty=format:%h
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
+	df = diff --color-words
+  lg = log --pretty=format:'%Credcommit %H\n%CgreenAuthor: %an <%ae>\n%C(white)%ad (%ar)\n%C(cyan)%s\n' -3
+  graph = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold red)%d%C(reset)' --abbrev-commit --date=relative
+  logdate = log --pretty=format:'%Cred%ar: %Cgreen %s'
+[achievement]
+	upload = true
+[help]
+	autocorrect = 1
+[browser "git-instawebweb"]
+	cmd = chromium-browser
+[browser "instaweb"]
+	cmd = chromium-browser
+[web]
+	browser = chromium-browser
+[push]
+	default = simple
