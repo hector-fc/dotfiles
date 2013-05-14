@@ -147,10 +147,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-if [ -x fun.sh ]; then
-  ./fun.sh
-fi
-
 date +"%a - %d/%m/%y - %H:%M:%S"
 if [ -x /bin/todo -o -x /usr/bin/todo ]; then
   todo
@@ -172,7 +168,4 @@ else
 #PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"'
 fi
 
-export PATH="$PATH:$HOME/Packages/git"
-export PATH="$PATH:$HOME/Packages/abel-git-achievements/git-achievements"
-source /home/abel/perl5/perlbrew/etc/bashrc
 
