@@ -128,8 +128,6 @@ set expandtab
 
 set number
 
-colorscheme abel
-
 set ignorecase
 :map G Gzz
 :map n nzz
@@ -144,7 +142,6 @@ set ignorecase
 :map \abr A<br><Esc>
 :map vimrc :e $MYVIMRC<CR>
 :map syntax :e $HOME/.vim/after/syntax/c.vim<CR>
-:map color :e $HOME/.vim/colors/abel.vim<CR>
 :map <Tab> >>
 :map <S-Tab> <<
 :imap <S-tab> <Esc><<i

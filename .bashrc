@@ -167,5 +167,3 @@ else
   #PS1='$(for i in $(seq $COLUMNS); do echo -n "."; done)\n[\t] $(pwd)\n\$ '
 #PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"'
 fi
-
-
