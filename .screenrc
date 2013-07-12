@@ -3,7 +3,7 @@
 # enabled if there is no hardstatus setting for your terminal)
 hardstatus on
 hardstatus alwayslastline
-hardstatus string "%{.bW}%-w%{.rW}%n %t{-}%+w %=%{..G} %H %{..Y} %m/%d %C%a "
+hardstatus string "%{.kK}%-w%{.gk} %n %t %{.kK}%+w %=%{.kg} %H %{..y} %c "
 vbell off
 bind + stuff "screen -X chdir \$PWD;screen^M"
 startup_message off
