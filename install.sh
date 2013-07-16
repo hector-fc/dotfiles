@@ -1,1 +1,3 @@
-rsync --exclude ".git" --exclude "install.sh" --exclude ".gitignore" -av . ~
+rsync -vi .bash* .gitconfig .latexmkrc .screenrc .vimrc ~
+mkdir -p ~/.vim/colors
+rsync abel.vim ~/.vim/colors/
