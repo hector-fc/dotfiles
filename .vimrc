@@ -125,6 +125,8 @@ endif
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set tw=80
+nnoremap <silent> <C-l> :nohl<CR><C-l>
 
 set number
 
